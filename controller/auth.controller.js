@@ -31,7 +31,6 @@ exports.register = async (req, res) => {
             status: 400
         })
     }
-
 };
 
 exports.sendOtp = async (req, res) => {
