@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/demo")
+mongoose.connect("mongodb+srv://TD:td_Database@cluster0.mfeba.mongodb.net/test")
     .then(() => {
         console.log(`Database Connected`);
     })
