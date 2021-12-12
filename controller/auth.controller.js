@@ -56,7 +56,7 @@ exports.login = async (req, res) => {
         const email = req.body.email;
         const password = req.body.password;
 
-        const user = await authModel.findOne({});
+        const user = await authModel.findOne({email});
 
         const dbemail = user.email;
         const dbpassword = user.password;
