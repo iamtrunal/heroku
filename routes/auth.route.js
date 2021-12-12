@@ -10,7 +10,7 @@ const {
 
 router.post("/register", register);
 router.post("/otp/send", sendOtp);
-router.get("/login", login);
-router.get("/otp/verify", verifyOtp)
+router.post("/login", login);
+router.post("/otp/verify", verifyOtp)
 
 module.exports = router;
